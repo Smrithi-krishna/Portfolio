@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+
+  <header>
+    <nav class="navbar">
+  <a href="#about-me">About me</a> 
+   <a href="Resume.pdf">Resume</a> 
+   <a href="#projects">Projects</a> 
+   <a href="#contact-online">Contact</a>
+</nav>
+    <div class="hero-text">
+        <h1>Smrithi Krishna</h1>
+        <p>Computer Science Engineering Student | Developer</p>
+    </div>
+    <img src="Smrithi.jpg" alt="Portfolio portrait" class="profile-img">
+  </header>
+
+<section id="about-me">
+  <h2>About Me</h2>
+
+  <div class="card about-card">
+    <div class="about-grid">
+
+      <div>
+        <strong>Education</strong><br>
+        Second-year Computer Science Engineering student.
+      </div>
+
+      <div>
+        <strong> Interests</strong><br>
+        Exploring web development, software development, and emerging technologies.
+      </div>
+
+      <div>
+        <strong> Learning Journey</strong><br>
+        Continuously expanding my technical knowledge through coursework, projects, and self-learning.
+      </div>
+
+      <div>
+        <strong> Focus</strong><br>
+        Building practical projects and strengthening problem-solving skills.
+      </div>
+
+      <div>
+        <strong> Opportunities</strong><br>
+        Open to collaboration, learning opportunities, and contributing to meaningful projects.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>🎓 Education</h2>
+
+  <div class="card">
+    <h3>B.Tech in Computer Science Engineering</h3>
+    <p><strong>Rajagiri School of Engineering and Technology</strong></p>
+    <p>2025 – 2029 (Expected)</p>
+    <p>📈 SGPA: <strong>9.36</strong></p>
+  </div>
+
+  <div class="card">
+    <h3>Higher Secondary Education</h3>
+    <p><strong>Sree Narayana Higher Secondary School, Okkal</strong></p>
+    <p>2023 – 2025</p>
+    <p>📊 Percentage: <strong>99.4%</strong></p>
+  </div>
+
+  <div class="card">
+    <h3>Secondary Education</h3>
+    <p><strong>Amrita Vidyalayam</strong></p>
+    <p>2011 – 2023</p>
+    <p>📊 Percentage: <strong>91.4%</strong></p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="card">
+    <div class="skills-container">
+      <span class="skill">C</span>
+      <span class="skill">Python</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+    </div>
+  </div>
+</section>
+
+  
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="card project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        A responsive personal portfolio showcasing my skills, education,
+        projects, and achievements.
+      </p>
+
+      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="card project-card">
+      <h3>Project Name</h3>
+      <p>
+        Brief description of your project and the problem it solves.
+      </p>
+
+      <p><strong>Tech Stack:</strong> Python, HTML, CSS</p>
+
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="card project-card">
+      <h3>Project Name</h3>
+      <p>
+        Brief description of your project and the technologies used.
+      </p>
+
+      <p><strong>Tech Stack:</strong> C, JavaScript</p>
+
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="highlights">
+    <h2>Highlights</h2>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('all')">All</button>
+      <button class="tab-btn" onclick="showTab('certifications')">Certifications</button>
+      <button class="tab-btn" onclick="showTab('achievements')">Achievements</button>
+      <button class="tab-btn" onclick="showTab('hackathons')">Hackathons</button>
+      <button class="tab-btn" onclick="showTab('experience')">Experience</button>
+    </div>
+
+    <div id="all" class="tab-content active">
+      <div class="card">
+        <p>🏆 SGPA: 9.36</p>
+        <p>🏆 Higher Secondary Percentage: 99.4%</p>
+        <p>🎓 Google AI Essentials</p>
+        <p>🎓 Cisco Networking Basics</p>
+        <p>💻 XYZ Hackathon Participant</p>
+        <p>💼 Internship at ABC Company</p>
+      </div>
+    </div>
+
+    <div id="certifications" class="tab-content">
+      <div class="card">
+        <p>🎓 Google AI Essentials</p>
+        <p>🎓 Cisco Networking Basics</p>
+      </div>
+    </div>
+
+    <div id="achievements" class="tab-content">
+      <div class="card">
+        <p>🏆 SGPA: 9.36</p>
+        <p>🏆 Higher Secondary Percentage: 99.4%</p>
+      </div>
+    </div>
+
+    <div id="hackathons" class="tab-content">
+      <div class="card">
+        <p>💻 XYZ Hackathon Participant</p>
+      </div>
+    </div>
+
+    <div id="experience" class="tab-content">
+      <div class="card">
+        <p>💼 Internship at ABC Company</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+  <div class="contact-section-title">
+    <h1>Let's Connect</h1>
+    <h2>Want to discuss projects or collaborate with me? Feel free to reach out</h2>
+  </div>
+
+  <div class="contact-flex-container">
+    
+    <div class="contact-form-side">
+      <div class="card">
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="64b8e744-a747-41b3-a62b-e8c4130444ab">
+
+        <h3>Want to discuss projects or collaborate with me?</h3>
+        <h2> Feel free to reach out</h2>
+        <form id="Contact-form">
+          <label for="name">Name:</label><br/>
+          <input type="text" id="name" name="name" required><br/>
+          
+          <label for="email">Email:</label><br/>
+          <input type="email" id="email" name="email" required><br/>
+          
+          <label for="message">Message:</label><br/>
+          <textarea id="message" name="message" rows="4" required></textarea><br/>
+          
+          <input id="button" type="submit" value="Send">
+        </form>
+      </form>
+      </div>
+    </div>
+
+    <div class="contact-links-side">
+      
+      <div class="card social-links-card">
+        <h3>Contact me Online</h3>
+        <a href="https://github.com/Smrithi-krishna" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="mailto:avsmrithikrishnaa8a@gmail.com" target="_blank"><i class="fa-brands fa-google"></i> Email</a>
+        <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Smrithi krishna. All rights reserved.</p>
+
+  <p>
+     <a href="https://github.com/Smrithi-krishna" target="_blank">
+        <i class="fa-brands fa-github"></i>
+    </a> |
+    
+    <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+    </a> |
+    <a href="mailto:avsmrithikrishnaa8a@gmail.com" target="_blank">
+        <i class="fa-brands fa-google"></i>
+    </a>
+  </p>
+</footer>
+
+<script>
+    function showTab(tabId) {
+     
+      const contents = document.querySelectorAll('.tab-content');
+      contents.forEach(content => content.classList.remove('active'));
+
+      
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+
+      document.getElementById(tabId).classList.add('active');
+
+  
+      event.currentTarget.classList.add('active');
+    }
+  </script>
+
+</body>
+</body>
+</html>
