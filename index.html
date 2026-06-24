@@ -10,277 +10,706 @@
 
 <body>
 
+  <header class="hero">
 
-
-  <header>
     <nav class="navbar">
-  <a href="#about-me">About me</a> 
-   <a href="Resume.pdf">Resume</a> 
-   <a href="#projects">Projects</a> 
-   <a href="#contact-online">Contact</a>
-</nav>
-    <div class="hero-text">
-        <h1>Smrithi Krishna</h1>
-        <p>Computer Science Engineering Student | Developer</p>
+
+    <div class="logo">
+        <img src="logo.png">
     </div>
-    <img src="Smrithi.jpg" alt="Portfolio portrait" class="profile-img">
-  </header>
+
+    <ul class="nav-links">
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="https://drive.google.com/file/d/1RVijHca5Z-SXVgbJho8I0wNhLrglUve1/view?usp=drive_link" target="_blank" class="resume-btn">
+    Resume
+</a>
+    <button id="theme-toggle" class="theme-toggle">
+    <i class="fa-solid fa-moon"></i>
+</button>
+
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+</nav>
+
+    <div class="hero-content">
+
+        <div class="hero-left">
+
+            <p class="hero-tag">
+                <i class="fa-solid fa-code"></i>
+                Computer Science Engineering Student
+            </p>
+
+            <h1>
+                Hi, I'm <span>Smrithi Krishna</span>
+            </h1>
+
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
+            <p class="hero-description">
+                Computer Science Engineering Student passionate about
+                Web Development, Software Development, AI, and Open Source.
+                Building practical solutions while continuously learning
+                and growing as a developer.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    View Projects
+                </a>
+
+                <a href="https://drive.google.com/file/d/1RVijHca5Z-SXVgbJho8I0wNhLrglUve1/view?usp=drive_link" class="btn-secondary" download>
+                    View Resume
+                </a>
+
+                <a href="#contact" class="btn-outline">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="image-wrapper">
+                <img src="Smrithi.jpg" alt="Smrithi Krishna">
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
 
 <section id="about-me">
-  <h2>About Me</h2>
 
-  <div class="card about-card">
-    <div class="about-grid">
+    <div class="section-heading">
+        <span>Get To Know Me</span>
+        <h2>About Me</h2>
+    </div>
 
-      <div>
-        <strong>Education</strong><br>
-        Second-year Computer Science Engineering student.
-      </div>
+    <div class="about-container">
 
-      <div>
-        <strong> Interests</strong><br>
-        Exploring web development, software development, and emerging technologies.
-      </div>
+        <div class="about-left">
 
-      <div>
-        <strong> Learning Journey</strong><br>
-        Continuously expanding my technical knowledge through coursework, projects, and self-learning.
-      </div>
+            <div class="about-card-main">
+                <h3>Who Am I?</h3>
 
-      <div>
-        <strong> Focus</strong><br>
-        Building practical projects and strengthening problem-solving skills.
-      </div>
+                <p>
+                    I'm Smrithi Krishna, a Computer Science Engineering student
+                    passionate about building technology that solves real-world
+                    problems.
+                </p>
 
-      <div>
-        <strong> Opportunities</strong><br>
-        Open to collaboration, learning opportunities, and contributing to meaningful projects.
-      </div>
+                <p>
+                    My interests span Web Development, Software Development,Cybersecurity,
+                    Artificial Intelligence, and Open Source technologies.
+                    I enjoy learning new concepts and transforming ideas into
+                    practical projects.
+                </p>
+
+                <p>
+                    My goal is to continuously grow as a developer, contribute
+                    to meaningful projects, and create impactful solutions
+                    through technology.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="about-right">
+
+            <div class="info-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h4>Education</h4>
+                <p>Second-Year Computer Science Engineering Student</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h4>Interests</h4>
+                <p>Web Development, Software Development & AI</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-book-open"></i>
+                <h4>Learning Journey</h4>
+                <p>Coursework, Projects & Self-Learning</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <h4>Focus</h4>
+                <p>Practical Projects & Problem Solving</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-handshake"></i>
+                <h4>Opportunities</h4>
+                <p>Open to Collaboration & Learning Opportunities</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-rocket"></i>
+                <h4>Career Goal</h4>
+                <p>Aspiring Software Developer</p>
+            </div>
+
+        </div>
 
     </div>
-  </div>
-</section>
+
+</section> 
 
 <section id="education">
-  <h2>🎓 Education</h2>
 
-  <div class="card">
-    <h3>B.Tech in Computer Science Engineering</h3>
-    <p><strong>Rajagiri School of Engineering and Technology</strong></p>
-    <p>2025 – 2029 (Expected)</p>
-    <p>📈 SGPA: <strong>9.36</strong></p>
-  </div>
+    <div class="section-heading">
+        <span>Academic Journey</span>
+        <h2>Education</h2>
+    </div>
 
-  <div class="card">
-    <h3>Higher Secondary Education</h3>
-    <p><strong>Sree Narayana Higher Secondary School, Okkal</strong></p>
-    <p>2023 – 2025</p>
-    <p>📊 Percentage: <strong>99.4%</strong></p>
-  </div>
+    <div class="timeline">
 
-  <div class="card">
-    <h3>Secondary Education</h3>
-    <p><strong>Amrita Vidyalayam</strong></p>
-    <p>2011 – 2023</p>
-    <p>📊 Percentage: <strong>91.4%</strong></p>
-  </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <span class="timeline-year">2025 - 2029</span>
+                <h3>B.Tech in Computer Science Engineering</h3>
+                <h4>Rajagiri School of Engineering and Technology</h4>
+
+                <p>
+                    Pursuing Bachelor's degree in Computer Science Engineering
+                    with a strong focus on software development, problem-solving,
+                    and emerging technologies.
+                </p>
+
+                <div class="timeline-badge">
+                    SGPA: 9.36
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <span class="timeline-year">2023 - 2025</span>
+                <h3>Higher Secondary Education</h3>
+                <h4>Sree Narayana Higher Secondary School, Okkal</h4>
+
+                <p>
+                    Completed Higher Secondary Education with excellent
+                    academic performance and a strong foundation in science.
+                </p>
+
+                <div class="timeline-badge">
+                    99.4%
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <span class="timeline-year">2011 - 2023</span>
+                <h3>Secondary Education</h3>
+                <h4>Amrita Vidyalayam</h4>
+
+                <p>
+                    Built strong academic fundamentals and developed
+                    curiosity towards technology and innovation.
+                </p>
+
+                <div class="timeline-badge">
+                    91.4%
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </section>
+
 
 <section id="skills">
-  <h2>Skills</h2>
 
-  <div class="card">
-    <div class="skills-container">
-      <span class="skill">C</span>
-      <span class="skill">Python</span>
-      <span class="skill">HTML</span>
-      <span class="skill">CSS</span>
-      <span class="skill">JavaScript</span>
+    <div class="section-heading">
+        <span>My Expertise</span>
+        <h2>Skills & Technologies</h2>
     </div>
-  </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>Programming Languages</h3>
+
+            <div class="skill-item">
+                <span>C</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width:80%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <span>Python</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width:85%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+
+            <h3>Web Development</h3>
+
+            <div class="skill-item">
+                <span>HTML</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width:90%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width:85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width:75%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+
+            <h3>Tools & Technologies</h3>
+
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Linux</span>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+
+            <h3>Currently Learning</h3>
+
+            <div class="skill-tags">
+                <span>React</span>
+                <span>AI</span>
+                <span>Open Source</span>
+                <span>DSA</span>
+            </div>
+        </div>
+
+    </div>
+
 </section>
 
-  
 <section id="projects">
-  <h2>Projects</h2>
 
-  <div class="projects-grid">
-
-    <div class="card project-card">
-      <h3>Portfolio Website</h3>
-      <p>
-        A responsive personal portfolio showcasing my skills, education,
-        projects, and achievements.
-      </p>
-
-      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-
-      <div class="project-links">
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Live Demo</a>
-      </div>
+    <div class="section-heading">
+        <span>My Work</span>
+        <h2>Featured Projects</h2>
     </div>
 
-    <div class="card project-card">
-      <h3>Project Name</h3>
-      <p>
-        Brief description of your project and the problem it solves.
-      </p>
+    <!-- Featured Project -->
 
-      <p><strong>Tech Stack:</strong> Python, HTML, CSS</p>
+    <div class="featured-project">
 
-      <div class="project-links">
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Live Demo</a>
-      </div>
+        <div class="featured-image">
+            <img src="portfolio-preview.png" alt="Portfolio Website">
+        </div>
+
+        <div class="featured-content">
+
+            <span class="featured-tag">Featured Project</span>
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                A responsive personal portfolio website showcasing my education,
+                skills, projects, achievements, and professional journey using
+                modern web development practices.
+            </p>
+
+            <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-buttons">
+                <a href="https://github.com/Smrithi-krishna/Portfolio.git" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="#" target="_blank">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                </a>
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="card project-card">
-      <h3>Project Name</h3>
-      <p>
-        Brief description of your project and the technologies used.
-      </p>
+    <!-- Other Projects -->
 
-      <p><strong>Tech Stack:</strong> C, JavaScript</p>
+    <div class="projects-grid">
 
-      <div class="project-links">
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Live Demo</a>
-      </div>
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+
+            <h3>Crochet website</h3>
+
+            <p>
+                A responsive website showcasing handmade crochet products with an attractive design, product display, and user-friendly navigation.
+            </p>
+
+            <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+                <a href="">GitHub</a>
+                <a href="">Demo</a>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+
+            <h3>Nullbugs Internship Task</h3>
+
+            <p>
+               Completed a development task during a Nullbugs internship, gaining hands-on experience in software development and feature implementation.
+            </p>
+
+            <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/Smrithi-krishna/nullbugs.git">GitHub</a>
+                <a href="https://smrithi-krishna.github.io/nullbugs/">Demo</a>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <h3>BODMAS Game</h3>
+
+            <p>
+            An educational math game designed to help users practice and improve
+        their understanding of BODMAS operations through interactive challenges.
+            </p>
+
+            <div class="tech-stack">
+                <span>Html</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/Smrithi-krishna/bodmas.git">GitHub</a>
+                <a href="https://smrithi-krishna.github.io/bodmas/">Demo</a>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <i class="fa-solid fa-database"></i>
+            </div>
+
+            <h3>Basic Calculator</h3>
+
+            <p>
+                A responsive calculator application capable of performing basic
+        arithmetic operations with a clean and user-friendly interface.
+            </p>
+
+            <div class="tech-stack">
+                <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/Smrithi-krishna/basic_calculator.git">GitHub</a>
+                <a href="https://smrithi-krishna.github.io/basic_calculator/">Demo</a>
+            </div>
+
+        </div>
+
     </div>
 
-  </div>
+</section>
+  
+<section id="achievements">
+
+    <div class="section-heading">
+        <span>Achievements & Certifications</span>
+        <h2>Highlights</h2>
+    </div>
+
+    <!-- Statistics -->
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h3>9.36</h3>
+            <p>Current SGPA</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>99.4%</h3>
+            <p>Higher Secondary</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>2+</h3>
+            <p>Certifications</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>3+</h3>
+            <p>Projects Built</p>
+        </div>
+
+    </div>
+
+   
+</section>
+
+    
+
+
+
+
+<section id="contact">
+
+    <div class="section-heading">
+        <span>Let's Connect</span>
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Info -->
+
+        <div class="contact-info">
+
+            <h3>Let's Build Something Together</h3>
+
+            <p>
+                I'm always open to discussing projects,
+                internships, collaboration opportunities,
+                and new ideas.
+            </p>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>avsmrithikrishnaa8a@gmail.com</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>github.com/Smrithi-krishna</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn Profile</span>
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/Smrithi-krishna" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:avsmrithikrishnaa8a@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="contact-form-card">
+
+            <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                id="contactForm">
+
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="64b8e744-a747-41b3-a62b-e8c4130444ab">
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required>
+
+                <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <p id="success-message">
+                    Message sent successfully!
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
 </section>
 
 
-<section id="highlights">
-    <h2>Highlights</h2>
+<footer class="footer">
 
-    <div class="tabs">
-      <button class="tab-btn active" onclick="showTab('all')">All</button>
-      <button class="tab-btn" onclick="showTab('certifications')">Certifications</button>
-      <button class="tab-btn" onclick="showTab('achievements')">Achievements</button>
-      <button class="tab-btn" onclick="showTab('hackathons')">Hackathons</button>
-      <button class="tab-btn" onclick="showTab('experience')">Experience</button>
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+                <img src="logo.png" alt="Smrithi Krishna Logo">
+                <h3>Smrithi Krishna</h3>
+            </div>
+
+            <p>
+                Computer Science Engineering Student |
+Aspiring Software Developer passionate about
+Web Development, Cybersecurity, AI, and Open Source.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+            <a href="#about-me">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h4>Connect</h4>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/Smrithi-krishna" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:avsmrithikrishnaa8a@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div id="all" class="tab-content active">
-      <div class="card">
-        <p>🏆 SGPA: 9.36</p>
-        <p>🏆 Higher Secondary Percentage: 99.4%</p>
-        <p>🎓 Google AI Essentials</p>
-        <p>🎓 Cisco Networking Basics</p>
-        <p>💻 XYZ Hackathon Participant</p>
-        <p>💼 Internship at ABC Company</p>
-      </div>
+    <div class="footer-bottom">
+        <p>© 2026 Smrithi Krishna. All Rights Reserved.</p>
     </div>
 
-    <div id="certifications" class="tab-content">
-      <div class="card">
-        <p>🎓 Google AI Essentials</p>
-        <p>🎓 Cisco Networking Basics</p>
-      </div>
-    </div>
-
-    <div id="achievements" class="tab-content">
-      <div class="card">
-        <p>🏆 SGPA: 9.36</p>
-        <p>🏆 Higher Secondary Percentage: 99.4%</p>
-      </div>
-    </div>
-
-    <div id="hackathons" class="tab-content">
-      <div class="card">
-        <p>💻 XYZ Hackathon Participant</p>
-      </div>
-    </div>
-
-    <div id="experience" class="tab-content">
-      <div class="card">
-        <p>💼 Internship at ABC Company</p>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="contact">
-  <div class="contact-section-title">
-    <h1>Let's Connect</h1>
-    <h2>Want to discuss projects or collaborate with me? Feel free to reach out</h2>
-  </div>
-
-  <div class="contact-flex-container">
-    
-    <div class="contact-form-side">
-      <div class="card">
-        <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="64b8e744-a747-41b3-a62b-e8c4130444ab">
-
-        <h3>Want to discuss projects or collaborate with me?</h3>
-        <h2> Feel free to reach out</h2>
-        <form id="Contact-form">
-          <label for="name">Name:</label><br/>
-          <input type="text" id="name" name="name" required><br/>
-          
-          <label for="email">Email:</label><br/>
-          <input type="email" id="email" name="email" required><br/>
-          
-          <label for="message">Message:</label><br/>
-          <textarea id="message" name="message" rows="4" required></textarea><br/>
-          
-          <input id="button" type="submit" value="Send">
-        </form>
-      </form>
-      </div>
-    </div>
-
-    <div class="contact-links-side">
-      
-      <div class="card social-links-card">
-        <h3>Contact me Online</h3>
-        <a href="https://github.com/Smrithi-krishna" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-        <a href="mailto:avsmrithikrishnaa8a@gmail.com" target="_blank"><i class="fa-brands fa-google"></i> Email</a>
-        <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Smrithi krishna. All rights reserved.</p>
-
-  <p>
-     <a href="https://github.com/Smrithi-krishna" target="_blank">
-        <i class="fa-brands fa-github"></i>
-    </a> |
-    
-    <a href="https://www.linkedin.com/in/smrithi-krishna-741a37374/" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
-    </a> |
-    <a href="mailto:avsmrithikrishnaa8a@gmail.com" target="_blank">
-        <i class="fa-brands fa-google"></i>
-    </a>
-  </p>
 </footer>
 
-<script>
-    function showTab(tabId) {
-     
-      const contents = document.querySelectorAll('.tab-content');
-      contents.forEach(content => content.classList.remove('active'));
+<button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+<script src="style.js"></script>
 
-      
-      const buttons = document.querySelectorAll('.tab-btn');
-      buttons.forEach(btn => btn.classList.remove('active'));
 
-      document.getElementById(tabId).classList.add('active');
-
-  
-      event.currentTarget.classList.add('active');
-    }
-  </script>
-
-</body>
 </body>
 </html>
