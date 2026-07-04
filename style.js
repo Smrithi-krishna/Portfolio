@@ -122,38 +122,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-const filterButtons = document.querySelectorAll(".filter-btn");
-const cards = document.querySelectorAll(".highlight-card");
 
-filterButtons.forEach(button => {
-
-    button.addEventListener("click", () => {
-
-        filterButtons.forEach(btn =>
-            btn.classList.remove("active")
-        );
-
-        button.classList.add("active");
-
-        const filter = button.dataset.filter;
-
-        cards.forEach(card => {
-
-            if(filter === "all"){
-                card.style.display = "block";
-            }
-            else if(card.classList.contains(filter)){
-                card.style.display = "block";
-            }
-            else{
-                card.style.display = "none";
-            }
-
-        });
-
-    });
-
-});
 
 const backToTop = document.getElementById("backToTop");
 
@@ -170,4 +139,43 @@ backToTop.addEventListener("click", () => {
         top: 0,
         behavior: "smooth"
     });
+});
+
+const filterButtons=document.querySelectorAll(".filter-btn");
+const cards=document.querySelectorAll(".project-card");
+
+filterButtons.forEach(button=>{
+
+button.addEventListener("click",()=>{
+
+filterButtons.forEach(btn=>btn.classList.remove("active"));
+
+button.classList.add("active");
+
+const filter=button.dataset.filter;
+
+cards.forEach(card=>{
+
+if(filter==="all"){
+
+card.style.display="block";
+
+}
+
+else if(card.classList.contains(filter)){
+
+card.style.display="block";
+
+}
+
+else{
+
+card.style.display="none";
+
+}
+
+});
+
+});
+
 });

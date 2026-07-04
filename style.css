@@ -1597,3 +1597,67 @@ body.dark-mode .filter-btn.active{
     color: white;
     border-color: #D4A373;
 }
+
+.project-filter{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin:50px 0;
+}
+
+.filter-btn{
+
+    border:none;
+
+    background:white;
+
+    color:#5F7A65;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.filter-btn i{
+
+    margin-right:8px;
+}
+
+.filter-btn:hover{
+
+    background:#5F7A65;
+    color:white;
+
+    transform:translateY(-3px);
+}
+
+.filter-btn.active{
+
+    background:#5F7A65;
+    color:white;
+}
+
+.project-image{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 20px;
+    transition:.4s;
+}
+
+.project-card:hover .project-image{
+    transform:scale(1.05);
+}
